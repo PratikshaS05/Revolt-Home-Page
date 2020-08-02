@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "UserName": "My Station",
+        "stationName": "Basecom",
+        "stationId": 1902,
+        "Date": "12/07/2020",
+        "StartTime": "10:14 AM",
+        "EndTime": "11:00 AM",
+        "chargerType": "Type 2 AC",
+        "BatteryCharged": "50%",
+        "transactionSuccesfull": true,
+        "BillingAmount": 1000,
+        "carModel": "Tata"
+    },
+    {
+        "id": "2",
+        "UserName": "My Station",
+        "stationName": "ABC",
+        "stationId": 1902,
+        "Date": "12/07/2020",
+        "StartTime": "11:14 AM",
+        "EndTime": "11:45 AM",
+        "chargerType": "Css",
+        "BatteryCharged": "40%",
+        "transactionSuccesfull": true,
+        "BillingAmount": 500,
+        "carModel": "TATA NEXON"
+    }
+]
