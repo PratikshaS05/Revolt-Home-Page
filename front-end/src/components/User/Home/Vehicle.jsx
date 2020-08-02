@@ -30,17 +30,17 @@ export default class Vehicle extends React.Component {
           </Modal.Header>
 
           <Modal.Body>
-            Vehicle Name
+            Company Name
             <input
               type="text"
-              placeholder="Vehicle Name"
+              placeholder="Company Name"
               className="form-control form-control-sm validate"
             />
             <br />
-            Owner Name
+            Model Name
             <input
               type="text"
-              placeholder="Owner Name"
+              placeholder="Model Name"
               className="form-control form-control-sm validate"
             />
             <br />

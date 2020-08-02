@@ -5,12 +5,20 @@ import Card from "react-bootstrap/Card";
 import slotData from "./slotData.json";
 
 export default class MediaCard extends Component {
+            state = { style: "danger"}
+
   render() {
     return (
       <div>
         {slotData.map((item, id) => {
+            if (item.transactionSuccesfull === "true") {
+                this.setState({style:'info'})
+            }  
+            console.log(this.state.style);
+            
           return (
-            <Card border="">
+             
+            <Card border={this.state.style} key={id}>
               <Card.Header as="h5">{item.UserName}</Card.Header>
               <Card.Subtitle>{item.carModel}</Card.Subtitle>
               <Card.Body>
@@ -21,12 +29,13 @@ export default class MediaCard extends Component {
                 <Card.Text>
                   Station Name:{item.stationName} Staion Id={item.stationId}
                 </Card.Text>
-                <Card.Text>Charger Used:{item.chargerType}</Card.Text>
+                <Card.Text>Charger Point:{item.chargerType}</Card.Text>
                 <Card.Text>
-                  Perecntage of battery charged {item.BatteryCharged}
+                  Current {item.BatteryCharged}
                 </Card.Text>
               </Card.Body>
             </Card>
+        
           );
         })}
       </div>

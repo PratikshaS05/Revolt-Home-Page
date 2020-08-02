@@ -3,10 +3,18 @@ import React from "react";
 import "./Styling/PlanTrip.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import swal from "sweetalert";
 
 export default class PlanTrip extends React.Component {
+  constructor(props) {
+    super(props)
+  }
   handleModalShowHide() {
     this.props.handleModalShowHide();
+  }
+  popupShow(){
+    swal("Trip Successfully Planed!", "With your current battery,You can travel 90km!", "success");
+
   }
 
   render() {
@@ -21,7 +29,7 @@ export default class PlanTrip extends React.Component {
             maxHeight: "100%",
             fontSize: "12px",
             margin: "0px",
-            padding:'2px'
+            padding: "2px",
           }}
           show={this.props.showHide}
           className="bg-transparent  d-inline-block "
@@ -45,6 +53,14 @@ export default class PlanTrip extends React.Component {
               className="form-control form-control-sm validate"
             />
             <br />
+            Current Battery Percentage:
+            <input
+              type="text"
+              placeholder="Current Battery Percentage"
+              className="form-control form-control-sm validate"
+            />
+            <br />
+            
             {/*<Button variant="primary">Search</Button>
             <hr />
             Options
@@ -88,7 +104,7 @@ export default class PlanTrip extends React.Component {
               </label>
             </div>
           </Modal.Body>
-           
+
           <Modal.Footer>
             <Button
               variant="secondary"
@@ -99,9 +115,9 @@ export default class PlanTrip extends React.Component {
 
             <Button
               variant="primary"
-              onClick={() => this.handleModalShowHide()}
+              onClick={() =>{ this.handleModalShowHide() ; this.popupShow()}}
             >
-              Search
+              Confirm
             </Button>
           </Modal.Footer>
         </Modal>

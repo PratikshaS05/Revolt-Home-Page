@@ -42,7 +42,7 @@ export class DashNavigationGrid extends Component {
     return (
       <div>
         <nav
-          style={{ backgroundColor: "green" }}
+          style={{ backgroundColor: "#fed136" }}
           class="sb-topnav navbar navbar-expand navbar-dark"
         >
           <a class="navbar-brand" style={{ color: "black" }} href="">
@@ -56,10 +56,7 @@ export class DashNavigationGrid extends Component {
           >
             <i class="fas fa-bars"></i>
           </button>
-          
-          
-          
-          
+
           <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-4 my-0 my-md-0">
             <div class="input-group">
               <input
@@ -115,10 +112,11 @@ export class DashNavigationGrid extends Component {
           >
             Vehicle
           </button>*/}
-          <Link  to="/LogOut"><button 
-          class="  btn btn-sm align-end m-2 "
-          id="LogOut"
-        >Log Out</button></Link>
+          <Link to="/LogOut">
+            <button class="  btn btn-sm align-end m-2 " id="LogOut">
+              Log Out
+            </button>
+          </Link>
         </nav>
 
         <div id="layoutSidenav">
@@ -148,7 +146,7 @@ export class DashNavigationGrid extends Component {
                     Add Station
                   </a>
 
-                 <a
+                  <a
                     class="nav-link"
                     style={{ color: "black" }}
                     href="#p"
@@ -158,9 +156,9 @@ export class DashNavigationGrid extends Component {
                       <i class="fas fa-history"></i>
                     </div>
                     My Stations
-                 </a>
+                  </a>
 
-                 {/* <a class="nav-link" style={{ color: "black" }}>
+                  {/* <a class="nav-link" style={{ color: "black" }}>
                     <div class="sb-nav-link-icon" style={{ color: "black" }}>
                       <i class="fas fa-history"></i>
                     </div>
@@ -170,8 +168,7 @@ export class DashNavigationGrid extends Component {
                   <a
                     class="nav-link"
                     href="#Booked"
-                    onClick={this.handleModalShowHideBooked} 
-
+                    onClick={this.handleModalShowHideBooked}
                     style={{ color: "black" }}
                   >
                     <div class="sb-nav-link-icon" style={{ color: "black" }}>
@@ -223,7 +220,7 @@ export class DashNavigationGrid extends Component {
                 handleModalShowHide={this.handleModalShowHide}
               />
             )}
-            </div>
+          </div>
           <div id="Page">
             {showHide1 && (
               <AddNewStation
@@ -240,14 +237,9 @@ export class DashNavigationGrid extends Component {
               />
             )}
             </div>*/}
-          
-          <div id='Booked'>
-            {showHideBooked && (
-              <BookedSlots
-                showHideBooked={showHideBooked}
-      
-              />
-            )}
+
+          <div id="Booked">
+            {showHideBooked && <BookedSlots showHideBooked={showHideBooked} />}
           </div>
           <div id="layoutSidenav_content">
             <main></main>

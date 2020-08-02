@@ -15,30 +15,17 @@
     },
     {
         "id": "2",
-        "UserName": "Ajay",
-        "stationName": "Rio's Warehouse",
+        "UserName": "Rupesh",
+        "stationName": "Rio's Ev",
         "stationId": 1902,
         "Date": "12/07/2020",
-        "StartTime": "10:14 AM",
-        "EndTime": "11:00 AM",
-        "chargerType": "Type 2 AC",
-        "BatteryCharged": "50%",
+        "StartTime": "11:14 AM",
+        "EndTime": "11:45 AM",
+        "chargerType": "Css",
+        "BatteryCharged": "40%",
         "transactionSuccesfull": true,
-        "BillingAmount": 1000,
-        "carModel": "huyndai swift"
-    },
-    {
-        "id": "2",
-        "UserName": "Ajay",
-        "stationName": "Rio's Warehouse",
-        "stationId": 1902,
-        "Date": "12/07/2020",
-        "StartTime": "10:14 AM",
-        "EndTime": "11:00 AM",
-        "chargerType": "Type 2 AC",
-        "BatteryCharged": "50%",
-        "transactionSuccesfull": false,
-        "BillingAmount": 1000,
-        "carModel": "huyndai swift"
+        "BillingAmount": 500,
+        "carModel": "TATA NEXON"
     }
+    
 ]

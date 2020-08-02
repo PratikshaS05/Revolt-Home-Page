@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "UserName": "Ajay",
+        "stationName":"Coulomb Technologies EVC",
+        "stationId": 1902,
+        "Date": "02/08/2020",
+        "StartTime": "10:00 AM",
+        "EndTime": "11:00 AM",
+        "chargerType": "Type 2 AC",
+        "BatteryCharged": "50%",
+        "transactionSuccesfull": true,
+        "BillingAmount": 1000,
+        "carModel": "huyndai swift"
+    }
+]
