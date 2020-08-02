@@ -1,0 +1,11 @@
+body.modal-open .plan{
+    padding-top: 100px;
+    margin-left: 100px;
+    background-size: cover;
+    
+    overflow: auto;
+    display:inline-block;
+    background-repeat:no-repeat ;
+    position: relative;
+    margin-top: 200px;
+} 

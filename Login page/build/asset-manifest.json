@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CartIdea/static/css/main.5f361e03.chunk.css",
+    "main.js": "/CartIdea/static/js/main.1815bb6f.chunk.js",
+    "main.js.map": "/CartIdea/static/js/main.1815bb6f.chunk.js.map",
+    "runtime-main.js": "/CartIdea/static/js/runtime-main.6606c11e.js",
+    "runtime-main.js.map": "/CartIdea/static/js/runtime-main.6606c11e.js.map",
+    "static/css/2.f65acde2.chunk.css": "/CartIdea/static/css/2.f65acde2.chunk.css",
+    "static/js/2.0ef8dd71.chunk.js": "/CartIdea/static/js/2.0ef8dd71.chunk.js",
+    "static/js/2.0ef8dd71.chunk.js.map": "/CartIdea/static/js/2.0ef8dd71.chunk.js.map",
+    "index.html": "/CartIdea/index.html",
+    "precache-manifest.ed1f0a7be010e28799d42c57142c5999.js": "/CartIdea/precache-manifest.ed1f0a7be010e28799d42c57142c5999.js",
+    "service-worker.js": "/CartIdea/service-worker.js",
+    "static/css/2.f65acde2.chunk.css.map": "/CartIdea/static/css/2.f65acde2.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/CartIdea/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0ef8dd71.chunk.js.LICENSE.txt": "/CartIdea/static/js/2.0ef8dd71.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6606c11e.js",
+    "static/css/2.f65acde2.chunk.css",
+    "static/js/2.0ef8dd71.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.1815bb6f.chunk.js"
+  ]
+}

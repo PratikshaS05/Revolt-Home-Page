@@ -1,0 +1,323 @@
+{
+  "venues": [
+    {
+      "description": {
+        "id": "5f1dd0a9d9d2d625882566c7",
+        "Name": "Pune Vehicals",
+        "email": "punevehicals@gmail.com",
+        "phoneNumber": 9130805452,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress": { "latitude": 18.52043, "longitude": 73.856743 },
+        "stationNumber": 8451,
+        "NoOfChargingPoint": 5,
+        "chargingTypes": [{ "name":"Type 2 AC","number": 2 }, {"name": "CSS","number": 2 }, { "name":"Type 1 AC","number": 1 }],
+        "owner": "5f1dc1d8d9d2d625882566b2"
+      },
+      "name": "Pune Vehicals",
+      "geometry": [18.52043, 73.856743]
+    },
+    {
+      "description": {
+        "id": "5f1dd206d9d2d625882566c8",
+        "Name": "Delhi EV",
+        "email": "Delhi_EV@gmail.com",
+        "phoneNumber": 9130805452,
+        "workingTime": "9AM to 9 PM",
+        "stationAddress": { "latitude": 28.70406, "longitude": 77.102493 },
+        "stationNumber": 746,
+        "NoOfChargingPoint": 4,
+        "chargingTypes": [{ "name":"Type 2 AC","number": 2 }, { "name":"Type 1 AC","number": 2 }],
+        "owner": "5f1dc1d8d9d2d625882566b2"
+      },
+      "name": "Delhi EV",
+      "geometry": [28.70406, 77.102493]
+    },
+    {
+      "description":{
+        "id":"5f1dd352d9d2d625882566ca",
+        "Name": "Nasik EV",
+        "email":"Nasik_EV@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 8 PM",
+        "stationAddress":{"latitude":19.997454 ,"longitude" :73.789803},
+        "stationNumber":1646 ,
+        "NoOfChargingPoint":6,
+        "chargingTypes":[{"name":"Type 2 AC", "number": 2},{"name":"CSS","number" : 2},{"name":"Bharat AC 001","number" :2}],
+        "owner":"5f1dc5fbd9d2d625882566b3"
+      },
+      "name": "Nasik EV",
+      "geometry": [19.997454, 73.789803]
+    },
+    {
+      "description":{
+        "id":"5f1dd2ffd9d2d625882566c9",
+        "Name": "Nagpur EV",
+        "email":"Nagpur_EV@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":21.1458 ,"longitude" :79.088158},
+        "stationNumber":25646 ,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 2},{"name":"Bharat AC 001","number" :3}],
+        "owner":"5f1dc5fbd9d2d625882566b3"
+      },
+      "name": "Nagpur EV",
+      "geometry": [21.1458, 79.088158]
+    },
+    {
+      "description":{
+        "id":"5f1dd371d9d2d625882566cb",
+        "Name": "Zur Klappe",
+        "email":"Zur_Klappe@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 7 PM",
+        "stationAddress":{"latitude":52.493039 ,"longitude" :13.387248},
+        "stationNumber":2546,
+        "NoOfChargingPoint":4,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CHAdeMo","number":1} , {"name":"Type 1 AC","number" :2}],
+        "owner":"5f1dc621d9d2d625882566b4"
+      },
+      "name": "Zur Klappe",
+      "geometry": [52.493039, 13.387248]
+    },
+    {
+      "description": {
+        "id":"5f1dd389d9d2d625882566cc",
+        "Name": "OHM charging station",
+        "email":"OHMCS@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 11 PM",
+        "stationAddress":{"latitude":52.510507 ,"longitude" :13.42022},
+        "stationNumber":546,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 2},{"name":"Type 1 AC","number" :1},{"name":"Bharat AC 001","number" :1},{"name":"Bharat DC 001","number" :1}],
+        "owner":"5f1dc621d9d2d625882566b4"
+      },
+      "name": "OHM",
+      "geometry": [52.510507, 13.42022]
+    },
+    {
+      "description": {
+        "id":"5f1dd39cd9d2d625882566cd",
+        "Name": "M-BIA charging station",
+        "email":"M-BIA@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 11 PM",
+        "stationAddress":{"latitude":52.522437 ,"longitude" : 13.409063},
+        "stationNumber":446,
+        "NoOfChargingPoint":4,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CSS","number" : 1},{"name":"Bharat AC 001","number" :2}],
+        "owner":"5f1dc68ed9d2d625882566b5"
+      },
+      "name": "M-BIA",
+      "geometry": [52.522437, 13.409063]
+    },
+    {
+      "description":{
+        "id":"5f1dd3a9d9d2d625882566ce",
+        "Name": "Monster Ronson's Ichiban Karaoke",
+        "email":"Monster@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":52.505188 ,"longitude" : 13.448437},
+        "stationNumber":440,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CSS","number" : 1}, {"name":"Type 1 AC","number" :1},{"name":"Bharat AC 001","number" :1},{"name":"Bharat DC 001","number" :1}],
+        "owner":"5f1dc68ed9d2d625882566b5"
+      },
+      "name": "Monster Ronson's Ichiban Karaoke",
+      "geometry": [52.505188, 13.448437]
+    },
+    {
+      "description":{
+        "id":"5f1dd3b6d9d2d625882566cf",
+        "Name": "Marooush charging stataion",
+        "email":"Marooush@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":52.500938 ,"longitude" : 13.321438},
+        "stationNumber":441,
+        "NoOfChargingPoint":4,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CHAdeMo","number":1} , {"name":"Type 1 AC","number" :2}],
+        "owner":"5f1dca99d9d2d625882566bb"
+      },
+      "name": "Marooush Restaurant - Lounge - Bar - Club",
+      "geometry": [52.500938, 13.321438]
+    },
+    {
+      "description": {
+        "id":"5f1dd3f0d9d2d625882566d0",
+        "Name": "Kater Blau EV",
+        "email":"Kater_Blau@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":52.512187 ,"longitude" : 13.425563},
+        "stationNumber":1443,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CSS" ,"number": 1}, {"name":"Type 1 AC","number" :1},{"name":"Bharat AC 001","number" :1},{"name":"Bharat DC 001","number" :1}],
+        "owner":"5f1dca99d9d2d625882566bb"
+      },
+      "name": "Kater Blau",
+      "geometry": [52.512187, 13.425563]
+    },
+    {
+      "description":{
+        "id":"5f1dd5a5d9d2d625882566d1",
+        "Name": "Coulomb Technologies EVC",
+        "email":"CT-chargingstation@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":19.207347 ,"longitude" :77.346749},
+        "stationNumber":1444,
+        "NoOfChargingPoint":7,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 3},{"name":"CHAdeMo","number":2},{"name":"GB/T","number":2}],
+        "owner":"5f1dcb90d9d2d625882566bc"
+      },
+      "name": "Coulomb Technologies",
+      "geometry": [19.207347, 77.346749]
+    },
+    {
+      "description":{
+        "id":"5f1dd5c4d9d2d625882566d2",
+        "Name": "ABB EVC",
+        "email":"ABB_EVC@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 9 PM",
+        "stationAddress":{"latitude":19.281145 ,"longitude" :76.758686},
+        "stationNumber":1445,
+        "NoOfChargingPoint":6,
+        "chargingTypes":[{"name":"CHAdeMo","number":1},{"name":"CSS","number" : 1},{"name":"Bharat AC 001","number" :2},{"name":"GB/T","number":2}],
+        "owner":"5f1dcbbcd9d2d625882566bd"
+      },
+      "name": "ABB",
+      "geometry": [19.281145, 76.758686]
+    },
+    {
+      "description": {
+        "id":"5f1dd5d7d9d2d625882566d3",
+        "Name": "Shell EVC",
+        "email":"Shell_EVC@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 9 PM",
+        "stationAddress":{"latitude":19.852646 ,"longitude" :75.314812},
+        "stationNumber":1446,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 2},{"name":"CHAdeMo","number":1},{"name":"GB/T","number":2}],
+        "owner":"5f1dcbe9d9d2d625882566be"
+      },
+      "name": "Shell",
+      "geometry": [19.852646, 75.314812]
+    },
+    {
+      "description": {
+        "id":"5f1dd5e4d9d2d625882566d4",
+        "Name": "Webasto charging station",
+        "email":"Webasto_EV@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":20.263538 ,"longitude" :74.433413},
+        "stationNumber":25646 ,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 2},{"name":"Bharat AC 001","number" :2},{"name":"GB/T","number":1}],
+        "owner":"5f1dcc0ad9d2d625882566bf"
+      },
+      "name": "Webasto",
+      "geometry": [20.263538, 74.433413]
+    },
+    {
+      "description": {
+        "id":"5f1dd5f4d9d2d625882566d5",
+        "Name": "Siemens charging station",
+        "email":"Siemens_EV@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":19.097008 ,"longitude" :74.716922},
+        "stationNumber":25646 ,
+        "NoOfChargingPoint":3,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"Bharat AC 001","number" :1},{"name":"GB/T","number":1}],
+        "owner":"5f1dcc41d9d2d625882566c0"
+      },
+      "name": "Siemens",
+      "geometry": [19.097008, 74.716922]
+    },
+    {
+      "description":{
+        "id":"5f1dd603d9d2d625882566d6",
+        "Name": "EVgo charging station",
+        "email":"EVgo_EV@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":19.067921 ,"longitude" :73.019879},
+        "stationNumber":25647 ,
+        "NoOfChargingPoint":3,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"Bharat AC 001","number" :1},{"name":"GB/T","number":1}],
+        "owner":"5f1dcc64d9d2d625882566c1"
+      },
+      "name": "EVgo",
+      "geometry": [19.067921, 73.019879]
+    },
+    {
+      "description":{
+        "id":"5f1dd6d2d9d2d625882566d8",
+        "Name": "Blink charging pump",
+        "email":"Blink @gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":17.411644 ,"longitude" :78.324265},
+        "stationNumber":25648 ,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 2},{"name":"Bharat AC 001","number" :2},{"name":"GB/T","number":1}],
+        "owner":"5f1dcc8bd9d2d625882566c2"
+      },
+      "name": "Blink",
+      "geometry": [17.411644, 78.324265]
+    },
+    {
+      "description":{
+        "id":"5f1dd6dfd9d2d625882566d9",
+        "Name": "Schneider Electric",
+        "email":"Schneider@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":17.532158 ,"longitude" :78.25766},
+        "stationNumber":25649 ,
+        "NoOfChargingPoint":4,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CHAdeMo","number":1} , {"name":"Type 1 AC","number" :2}],
+        "owner":"5f1dccc5d9d2d625882566c3"
+      },
+      "name": "Schneider Electric",
+      "geometry": [17.532158, 78.25766]
+    },
+    {
+      "description":{
+        "id":"5f1dd6edd9d2d625882566da",
+        "Name": "Renault EV charging station",
+        "email":"Renault@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":18.500221 ,"longitude" :73.932882},
+        "stationNumber":25650 ,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CSS","number" : 1}, {"name":"Type 1 AC","number" :1},{"name":"Bharat AC 001","number" :1},{"name":"Bharat DC 001","number" :1}],
+        "owner":"5f1dcd4dd9d2d625882566c4"
+      },
+      "geometry": [18.500221, 73.932882]
+    },
+    {
+      "description":{
+        "id":"5f1dd730d9d2d625882566db",
+        "Name": "Eaton EV charging station",
+        "email":"Eaton@gmail.com",
+        "phoneNumber":9130805452 ,
+        "workingTime": "9AM to 10 PM",
+        "stationAddress":{"latitude":18.770306 ,"longitude" :73.408457},
+        "stationNumber":25651 ,
+        "NoOfChargingPoint":5,
+        "chargingTypes":[{"name":"Type 2 AC","number" : 1},{"name":"CSS","number" : 1}, {"name":"Type 1 AC","number" :1},{"name":"Bharat AC 001","number" :1},{"name":"Bharat DC 001","number" :1}],
+        "owner":"5f1dcd90d9d2d625882566c5"
+      },
+      "name": "Eaton",
+      "geometry": [18.770306, 73.408457]
+    }
+  ]
+}

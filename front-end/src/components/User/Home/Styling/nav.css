@@ -1,0 +1,36 @@
+body{
+    font-family: "poppins";
+    /* background-image: url(./bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    backdrop-filter: blur(5px);
+    background-color: rgba(228, 228, 15, 0.438);
+    }
+.navb{
+    background-color:transparent;
+    border-color:transparent;
+
+}
+.brand{
+    font-size: 20px;
+    color: greenyellow;
+    padding: 40px 16px;
+    font-weight: 400;
+}
+.navbar-right{
+    margin: 25px 0;
+}
+.cara{
+    padding-bottom: 200px;
+    font-family: "poppins";
+    text-align: center;
+    color:black;
+    z-index: +1;
+}
+.cara h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}

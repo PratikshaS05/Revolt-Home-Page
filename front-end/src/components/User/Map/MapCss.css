@@ -1,0 +1,16 @@
+.leaflet-container {
+  width: 100vw;
+  height: 100vh;
+  overflow:hidden;
+}
+body{
+  background-color: transparent;
+}
+.custom-style {
+  margin-bottom: -5;
+  width: 80%;
+  height: 0px;
+  background-color: rgba(202, 171, 171, 0.418);
+  opacity: 0.8;
+  box-shadow:  0 1px 5px rgba(0,0,0,0.65) !important;
+}
