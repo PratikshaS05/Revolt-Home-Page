@@ -1,0 +1,27 @@
+
+{
+  "labels": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursady",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "datasets": [
+    {
+      "label": "in Kwh",
+      "data": [223, 156, 325, 200, 451, 602, 761],
+      "backgroundColor": [
+        "rgb(255,0,0)",
+        "rgb(255,0,0)",
+        "rgb(255,0,0)",
+        "rgb(255,0,0)",
+        "rgb(255,0,0)",
+        "rgb(255,0,0)",
+        "rgb(255,0,0)"
+      ]
+    }
+  ]
+}

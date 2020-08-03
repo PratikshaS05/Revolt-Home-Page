@@ -19,6 +19,7 @@ export class DashNavigation extends Component {
            showHideV: false,
            showHideBooked: false,
            cancel: true,
+           initialShow:false
          };
          PAGE = () => {
            //const {page}=this.state
@@ -26,6 +27,7 @@ export class DashNavigation extends Component {
          };
          handleModalShowHide = () => {
            this.setState({ showHide: !this.state.showHide });
+           this.setState({ initialShow: true });
          };
          handleModalShowHide1 = () => {
            this.setState({ showHide1: !this.state.showHide1 });
@@ -45,7 +47,8 @@ export class DashNavigation extends Component {
              showHide1,
              showHideV,
              showHideBooked,
-             cancel
+             cancel,
+             initialShow
            } = this.state;
            return (
              <div>
@@ -284,7 +287,7 @@ export class DashNavigation extends Component {
                      />
                    )}
                  </div>
-<div><UserMap cancel={cancel}/></div>
+
 
  
                  {/* <div id="Page">
@@ -303,8 +306,10 @@ export class DashNavigation extends Component {
                      />
                    )}
                  </div>
+                
+                 <div><UserMap cancel={cancel} initialShow={initialShow}/></div>
                  <div>
-                   <Map1 />{" "}
+                   <Map1 />
                  </div>
                  <div id="layoutSidenav_content">
                    <main></main>

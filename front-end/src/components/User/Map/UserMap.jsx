@@ -26,6 +26,7 @@ class Map1 extends Component {
   };
   render() {
     const { currentLocation, zoom } = this.state;
+     console.log()
 
     return (
       <Map ref={this.saveMap} center={currentLocation} zoom={zoom}>
@@ -48,7 +49,7 @@ class Map1 extends Component {
           className="custom-style"
         />
 
-        {this.props.cancel && <Routing map={this.map} />}
+        {this.props.cancel && this.props.initialShow && <Routing map={this.map} start={this.props.start} end={this.props.end} />}
         <Markers venues={data.venues} />
       </Map>
     );

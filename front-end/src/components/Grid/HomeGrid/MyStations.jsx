@@ -1,39 +1,68 @@
-import React from "react";
-import { Content, Component } from "react";
-import Card from "react-bootstrap/Card";
 
+import React from "react";
+import { Content, Component, TouchableOpacity } from "react";
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
+import Button from "react-bootstrap/Button";
+import StationDeatils from "./StationDeatils";
 import MyStationsData from "./MyStationsData.json";
+import Update from './UpdateStation'
 
 export default class MediaCard extends Component {
-  state = { style: "danger" };
-
+  state = { style: "danger", show: false,up:false };
+  handleUpdate = () => {
+    this.setState({ up: !this.state.up });
+  };
+  toStationDetails() {}
+  handleShow = () => {
+    this.setState({ show: true });
+  };
   render() {
+    const {up}=this.state
     return (
       <div>
         {MyStationsData.map((item, id) => {
-          if (item.transactionSuccesfull === "true") {
-            this.setState({ style: "info" });
-          }
-          console.log(this.state.style);
-
           return (
-            <Card border={this.state.style} key={id}>
-              <Card.Header as="h5">{item.UserName}</Card.Header>
-              <Card.Subtitle>{item.carModel}</Card.Subtitle>
-              <Card.Body>
-                <Card.Text>Booked on:{item.Date}</Card.Text>
-                <Card.Text>
-                  Time charged: From-{item.StartTime} To-{item.EndTime}
-                </Card.Text>
-                <Card.Text>
-                  Station Name:{item.stationName} Staion Id={item.stationId}
-                </Card.Text>
-                <Card.Text>Charger Point:{item.chargerType}</Card.Text>
-                <Card.Text>Current {item.BatteryCharged}</Card.Text>
-              </Card.Body>
-            </Card>
+            <CardDeck style={{ display: "flex", flexDirection: "row" }}>
+              {/* //
+              <TouchableOpacity> */}
+              <Card>
+                <Card.Img variant="top" src={item.img} />
+                <Card.Body>
+                  <Card.Title>{item.stationName}</Card.Title>
+                  <Card.Text>{item.Address}</Card.Text>
+                  <Card.Text>
+                    Number of ports working:{item.NoofPorts}
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer>
+                  <Button
+                    id="#go"
+                    variant="primary"
+                    onClick={() => {
+                      this.toStationDetails();
+                      this.handleShow();
+                    }}
+                  >
+                    Details>>>
+                  </Button>
+                  <Button
+                    id="#updates"
+                    variant="primary"
+                    onClick={
+                      this.handleUpdate}
+                  >
+                    Update
+                  </Button>
+                </Card.Footer>
+              </Card>
+
+              {/* </TouchableOpacity> */}
+            </CardDeck>
           );
         })}
+        <div id="go">{this.state.show && <StationDeatils />}</div>
+        <div id="up">{up && <Update up={up} handleUpdate={this.handleUpdate} />}</div>
       </div>
     );
   }

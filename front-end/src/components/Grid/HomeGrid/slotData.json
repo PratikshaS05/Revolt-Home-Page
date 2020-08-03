@@ -1,31 +1,33 @@
+
 [
-    {
-        "id": "1",
-        "UserName": "Ajay",
-        "stationName": "Rio's Warehouse",
-        "stationId": 1902,
-        "Date": "12/07/2020",
-        "StartTime": "10:14 AM",
-        "EndTime": "11:00 AM",
-        "chargerType": "Type 2 AC",
-        "BatteryCharged": "50%",
-        "transactionSuccesfull": true,
-        "BillingAmount": 1000,
-        "carModel": "huyndai swift"
-    },
-    {
-        "id": "2",
-        "UserName": "Rupesh",
-        "stationName": "Rio's Ev",
-        "stationId": 1902,
-        "Date": "12/07/2020",
-        "StartTime": "11:14 AM",
-        "EndTime": "11:45 AM",
-        "chargerType": "Css",
-        "BatteryCharged": "40%",
-        "transactionSuccesfull": true,
-        "BillingAmount": 500,
-        "carModel": "TATA NEXON"
-    }
-    
+  {
+    "id": "1",
+    "UserName": "Ajay",
+    "stationName": "Rio's Ev",
+    "stationId": 1902,
+    "Date": "12/07/2020",
+    "StartTime": "10:14 AM",
+    "EndTime": "11:00 AM",
+    "chargerType": "Type 2 AC",
+    "BatteryCharged": "50%",
+    "transactionSuccesfull": true,
+    "BillingAmount": 1000,
+    "carModel": "huyndai swift",
+    "carnumber": "MH 26 BV 4563"
+  },
+  {
+    "id": "2",
+    "UserName": "Usama",
+    "stationName": "Rio's Ev",
+    "stationId": 1902,
+    "Date": "12/07/2020",
+    "StartTime": "11:14 AM",
+    "EndTime": "11:45 AM",
+    "chargerType": "Css",
+    "BatteryCharged": "40%",
+    "transactionSuccesfull": true,
+    "BillingAmount": 500,
+    "carModel": "TATA NEXON",
+    "carnumber": "MH 26 BV 9528"
+  }
 ]

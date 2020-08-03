@@ -4,6 +4,7 @@ import moduleName from '../../UI/Home.css'
 import {Link} from 'react-router-dom';
 //import "../Styling/style.scss";
 //import "../Styling/App.scss";
+import Button from "react-bootstrap/Button";
 export class RegisterGrid extends React.Component {
   constructor(props) {
     super(props);
@@ -47,9 +48,11 @@ export class RegisterGrid extends React.Component {
           </div>
         
         <div className="footer">
-          <button type="button" className="btn1">
-          <Link to="/Temp" style={{color:'white'}}>Add Station</Link>
-          </button>
+        <Button
+              variant="primary"
+            >
+            <Link to='/DashNavigationGridMajor' style={{color:'white'}}>Register</Link>
+            </Button>
         </div>
         </div>
       </div>

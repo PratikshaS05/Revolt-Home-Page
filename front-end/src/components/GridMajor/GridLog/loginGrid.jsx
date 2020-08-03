@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 import login from "../../Backend/user"
 import AddStation from './AddStation.jsx'
+import Button from "react-bootstrap/Button";
 export  class LoginGrid extends React.Component {
   constructor(props) {
     super(props);
@@ -60,11 +61,11 @@ login(data)
           
        
         <div className="footer">
-          <button type="button" href="#Page"
-          onClick={this.handleModalShowHide1} className="btn1" >
-            Login
-            
-          </button>
+        <Button
+              variant="primary"
+            >
+            <Link to='/DashNavigationGridMajor' style={{color:'white'}}>Login</Link>
+            </Button>
          <br/><br/>
           <p >
                     Forgot <a href="#">password?</a>

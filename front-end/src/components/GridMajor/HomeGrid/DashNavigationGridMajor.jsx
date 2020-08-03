@@ -8,6 +8,7 @@ import PlanTrip from "./PlanTrip.jsx";
 import AddNewStation from "./AddNewStation.jsx";
 //import Vehicle from "./Vehicle.jsx";
 //import MapContainer from './MapContainer.jsx'
+import Static from "./Static"
 export class DashNavigationGridMajor extends Component {
   state = {
     Page: false,
@@ -151,24 +152,7 @@ export class DashNavigationGridMajor extends Component {
                     Statistics
                  </a>
 
-                 {/* <a class="nav-link" style={{ color: "black" }}>
-                    <div class="sb-nav-link-icon" style={{ color: "black" }}>
-                      <i class="fas fa-history"></i>
-                    </div>
-                    Recent Activity
-        </a>*/}
-
-                  <a
-                    class="nav-link"
-                    href="index.html"
-                    style={{ color: "black" }}
-                  >
-                    <div class="sb-nav-link-icon" style={{ color: "black" }}>
-                      <i class="fas fa-bookmark"></i>
-                    </div>
-                    Bookmarks
-                  </a>
-
+             
                   <a
                     class="nav-link"
                     href="index.html"
@@ -207,7 +191,7 @@ export class DashNavigationGridMajor extends Component {
           </div>
           <div id="p" style={{ backgroundSize: "cover", margin: "" }}>
             {showHide && (
-              <PlanTrip
+              <Static
                 showHide={showHide}
                 handleModalShowHide={this.handleModalShowHide}
               />
