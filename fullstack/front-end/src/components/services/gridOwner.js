@@ -1,4 +1,6 @@
 import axios from "axios";
+import Cookie from "js-cookie"
+
 
 
 const login = async (data) =>{
@@ -6,14 +8,17 @@ const login = async (data) =>{
         const {email,password} = data
 const res = await axios({
     method:"POST",
-    url:"http://localhost:4000/api/users/login",
+    url:"http://localhost:4000/api/gridOwner/login",
     data:{
         email,
         password
     }
 
 })
-console.log(res)
+Cookie.set('jwt', res.data.token, { expires: 365 });
+Cookie.set('user', res.data, { expires: 365 })
+
+return res
     }
     catch(err){
         console.log(err.response.data);
@@ -23,11 +28,11 @@ console.log(res)
 
 export const register = async (data) =>{
     try{
-        console.log("in register")
+        
         const {firstName,lastName,email,phoneNumber,password} = data
 const res = await axios({
     method:"POST",
-    url:"http://localhost:4000/api/users/signup",
+    url:"http://localhost:4000/api/gridOwner/signup",
     data:{
         firstName,
         lastName,

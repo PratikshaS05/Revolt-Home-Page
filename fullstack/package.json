@@ -1,0 +1,22 @@
+{
+  "name": "projectrevolt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd front-end && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupesh40/ProjectRevolt.git"
+  },
+  "author": "Team-Revolt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupesh40/ProjectRevolt/issues"
+  },
+  "homepage": "https://github.com/rupesh40/ProjectRevolt#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
